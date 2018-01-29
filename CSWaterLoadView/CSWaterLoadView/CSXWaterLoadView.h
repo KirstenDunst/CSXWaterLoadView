@@ -9,10 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface CSXWaterLoadView : UIView
-
-@property (strong, nonatomic) UILabel *crossLabel;
-@property (strong, nonatomic) UILabel *topLabel;
-@property (strong, nonatomic) UILabel *bottomLabel;
 @property (assign, nonatomic) CGFloat speed;
 @property (assign, nonatomic) CGFloat waveHeight;
 @property (assign, nonatomic) CGFloat waveNum;

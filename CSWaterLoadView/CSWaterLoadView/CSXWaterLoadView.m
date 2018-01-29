@@ -13,6 +13,12 @@
 
 #import "CSXWaterLoadView.h"
 
+@interface CSXWaterLoadView ()
+@property (strong, nonatomic) UILabel *crossLabel;
+@property (strong, nonatomic) UILabel *topLabel;
+@property (strong, nonatomic) UILabel *bottomLabel;
+@end
+
 @implementation CSXWaterLoadView{
     CAShapeLayer *layer;
     CADisplayLink *_link;
